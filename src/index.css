@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+    /* font-family: 'Lato', sans-serif; */
+font-family: 'Sora', sans-serif;
+@apply bg-slate-100;
+}
+
+.tc {
+    /* background: rgba(18, 11, 72, 1); */
+    color: rgba(18, 11, 72, 1);
+
+}
+.tcb {
+   
+    background-color: rgba(18, 11, 72, 1);
+
+}
+
+.btn {
+    background-color:rgba(18, 11, 72, 1) ;
+}
+
+
+
+.d {
+    top: -.8rem;
+    z-index: 2;
+   
+}
+
+.d img {
+    margin-left: -3.5rem;
+}
+
+.c {
+    position: relative;
+}
+
+.b {
+    z-index: 10;
+    position: relative;
+}
+
+.a {
+    z-index: 2;
+    top: -3.5rem;
+}
+
+
+.a img {
+    margin-left: 3rem;
+}
